@@ -8,3 +8,11 @@ font-family: 'Open Sans', sans-serif;
   text-align: center;
 
 }
+
+.jumbotron-bike {
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+
+h1 {
+  font-family: monospace;
+}
