@@ -58,6 +58,7 @@ h2 {
 
 .image-container img {
   opacity: 0.7;
+  width: 100%;
 }
 
 .row {
