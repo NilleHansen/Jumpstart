@@ -2,6 +2,11 @@ html {
 font-family: 'Open Sans', sans-serif;
 }
 
+a {
+  color: rgb(51, 122, 183);
+  text-decoration: none;
+}
+
 .active {
   justify-content: center;
   font-weight: bold;
@@ -39,7 +44,8 @@ font-family: 'Open Sans', sans-serif;
 }
 
 .featured-project {
-  display: flex;
+  margin-top: -7rem;
+
 }
 
 .image-container img {
@@ -53,4 +59,23 @@ font-family: 'Open Sans', sans-serif;
 
 .col-xs-12 {
   width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 992px){
+.container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
 }
