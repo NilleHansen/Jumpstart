@@ -2,6 +2,10 @@ html {
 font-family: 'Open Sans', sans-serif;
 }
 
+.image-container {
+   overflow: hidden;
+}
+
 a {
   color: rgb(51, 122, 183);
   text-decoration: none;
